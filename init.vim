@@ -39,7 +39,9 @@ set shiftwidth=4
 " Search options
 set smartcase
 set ignorecase
-
+set splitbelow " split to open at bottom instead of top
+set splitright " split to open at right instead of left
+" Config inspired by https://github.com/jonhoo/configs
+"
 " Default colorscheme
 colorscheme srcery
-
