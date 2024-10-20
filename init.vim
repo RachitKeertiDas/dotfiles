@@ -21,8 +21,9 @@ Plug 'stephpy/vim-yaml'
 Plug 'lervag/vimtex'
 " Colorscheme
 Plug 'srcery-colors/srcery-vim' "Colorscheme
-
+Plug 'ryanoasis/vim-devicons' "This has to be the last plugin loaded
 call plug#end()
+
 " 
 "  Editor Settings
 "
