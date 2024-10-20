@@ -42,6 +42,7 @@ set smartcase
 set ignorecase
 set splitbelow " split to open at bottom instead of top
 set splitright " split to open at right instead of left
+set list " show tabs
 " Config inspired by https://github.com/jonhoo/configs
 "
 " Default colorscheme
