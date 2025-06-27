@@ -11,6 +11,7 @@ Plug 'jiangmiao/auto-pairs' " Autocomplete brackets
 Plug 'rust-lang/rust.vim'
 Plug 'godlygeek/tabular'
 Plug 'leafgarland/typescript-vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'peitalin/vim-jsx-typescript'
 " Plug 'plasticboy/vim-markdown'
 Plug 'justinmk/vim-syntax-extra'
@@ -27,6 +28,12 @@ call plug#end()
 " 
 "  Editor Settings
 "
+
+" Vim-go settings:
+let g:go_highlight_functions = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_types = 1
 
 filetype plugin indent on
 set autoindent
