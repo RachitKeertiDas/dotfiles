@@ -15,7 +15,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'peitalin/vim-jsx-typescript'
 " Plug 'plasticboy/vim-markdown'
 Plug 'justinmk/vim-syntax-extra'
-Plug 'ackyshake/VimCompletesMe'
+Plug 'vim-scripts/VimCompletesMe'
 Plug 'cespare/vim-toml'
 Plug 'stephpy/vim-yaml'
 " Latex Sorcery
